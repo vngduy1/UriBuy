@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="/shop/asseets/fontawesome-free-6.4.0-web/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="./shop/asseets/base.css" />
+    <link rel="stylesheet" href="./shop/asseets/main.css" />
+  </head>
+  <body>
+    <!-- Block Element Modifier-->
+    <div class="app">
+      <header class="header">
+        <div class="grid">
+          <nav class="header__navbar">
+            <ul class="header__navbar-list">
+              <li
+                class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate"
+              >
+                Tải ứng dụng
+
+                <!--Header--QR-code-->
+                <div class="header__qr">
+                  <img
+                    src="./shop/asseets/img/qr.png"
+                    alt="QR code"
+                    class="header__qr-img"
+                  />
+                  <div class="header__qr-apps">
+                    <a href="" class="header__qr-link">
+                      <img
+                        src="./shop/asseets/img/googlePlay.df026781.png"
+                        alt="google play"
+                        class="header__qr-download-img"
+                      />
+                    </a>
+                    <a href="" class="header__qr-link">
+                      <img
+                        src="./shop/asseets/img/appstore.png"
+                        alt="app stores"
+                        class="header__qr-download-img"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li class="header__navbar-item">
+                Ket noi
+                <a href="" class="header__navbar-icon-link">
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a href="" class="header__navbar-icon-link">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+
+            <ul class="header__navbar-list">
+              <li class="header__navbar-item header__navbar-item--has-notify">
+                <a href="" class="header__navbar-item-link">
+                  <i class="fa-regular fa-bell"></i>
+                  Thong bao
+                </a>
+                <div class="header__notify">
+                  <header class="header__notify-header">
+                    <h3>Thông báo mới nhận</h3>
+                  </header>
+                  <ul class="header__notify-list">
+                    <li class="header__notify-item header__notify-item--viewed">
+                      <a href="" class="header__notify-link">
+                        <img
+                          src="./shop/asseets/img/51uuJ6XedrL._AC_SX679_.jpg"
+                          alt=""
+                          class="header__notify-img"
+                        />
+                        <div class="header__notify-info">
+                          <span class="header__notify-name">My Pham</span>
+                          <span class="header__notify-description">Mo ta</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="header__notify-item header__notify-item--viewed">
+                      <a href="" class="header__notify-link">
+                        <img
+                          src="./shop/asseets/img/51uuJ6XedrL._AC_SX679_.jpg"
+                          alt=""
+                          class="header__notify-img"
+                        />
+                        <div class="header__notify-info">
+                          <span class="header__notify-name">My Pham</span>
+                          <span class="header__notify-description">Mo ta</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="header__notify-item header__notify-item--viewed">
+                      <a href="" class="header__notify-link">
+                        <img
+                          src="./shop/asseets/img/51uuJ6XedrL._AC_SX679_.jpg"
+                          alt=""
+                          class="header__notify-img"
+                        />
+                        <div class="header__notify-info">
+                          <span class="header__notify-name">My Pham</span>
+                          <span class="header__notify-description">Mo ta</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                  <footer class="header__notify-footer">
+                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                  </footer>
+                </div>
+              </li>
+              <li class="header__navbar-item">
+                <a href="" class="header__navbar-item-link">Tro giup</a>
+              </li>
+              <!-- <li class="header__navbar-item">
+                <a
+                  href=""
+                  class="header__navbar-item header__navbar-item--strong header__navbar-item--separate"
+                  >Dang ky</a
+                >
+              </li>
+              <li class="header__navbar-item">
+                <a
+                  href=""
+                  class="header__navbar-item header__navbar-item--strong"
+                  >Dang nhap</a
+                >
+              </li> -->
+              <li class="header__navbar-item header__navbar-user">
+                <img
+                  src="https://lh3.googleusercontent.com/ogw/AGvuzYYZwtaSPFEXhSYNMkMX8ZyVwFiAiNZNx90uzTbc=s32-c-mo"
+                  alt=""
+                  class="header__navbar-user-img"
+                />
+                <span class="header__navbar-user-name">Duy Vu</span>
+                <ul class="header__navbar-user-menu">
+                  <li class="header__navbar-user-item">
+                    <a href="">Tai khoan cua toi</a>
+                  </li>
+                  <li class="header__navbar-user-item">
+                    <a href="">Dia chi cua toi</a>
+                  </li>
+                  <li class="header__navbar-user-item">
+                    <a href="">Don mua</a>
+                  </li>
+                  <li
+                    class="header__navbar-user-item header__navbar-user-item--separate"
+                  >
+                    <a href="">Dang xuat</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="header-with-search">
+            <div class="header__logo">
+              <div>
+                <a href="main.html" class="header__logo-link">
+                  <img
+                    class="header__logo-img"
+                    src="https://static.vecteezy.com/system/resources/previews/024/554/933/original/shopee-logo-white-free-png.png"
+                    alt="none"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="header__search">
+              <div class="header__search-input-wrap">
+                <input
+                  type="text"
+                  class="header__search-input"
+                  placeholder="Nhap de tim kiem san pham"
+                />
+
+                <!-- Search history -->
+                <div class="header__search-history">
+                  <h3 class="header__search-history-heading">
+                    Lich su tim kiem
+                  </h3>
+                  <ul class="header__search-history-list">
+                    <li class="header__search-history-item">
+                      <a href="">Kem duong da</a>
+                    </li>
+                    <li class="header__search-history-item">
+                      <a href="">Kem tri mun</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="header__search-select">
+                <span class="header__search-select-label">Trong shop</span>
+                <i class="header__search-select-icon fas fa-angle-down"></i>
+                <ul class="header__search-option">
+                  <li
+                    class="header__search-option-item header__search-option-item--active"
+                  >
+                    <span>Trong shop</span>
+                    <i class="fas fa-check"></i>
+                  </li>
+                  <li class="header__search-option-item">
+                    <span>Ngoai shop</span>
+                    <i class="fas fa-check"></i>
+                  </li>
+                </ul>
+              </div>
+              <button class="header__search-btn">
+                <i class="fas fa-search header__search-btn-icon"></i>
+              </button>
+            </div>
+            <!-- Cart layout-->
+            <div class="header__cart">
+              <div class="header_cart-wrap">
+                <i class="header__cart-icon fas fa-shopping-cart"></i>
+                <span class="header_cart-notice">3</span>
+                <!-- No cart: header__cart-list--no-cart -->
+                <div class="header__cart-list">
+                  <img
+                    src="./shop/asseets/img/no-cart.png"
+                    alt=""
+                    class="header__cart-no-cart-img"
+                  />
+                  <span class="header__cart-list-no-cart-msg">
+                    Chua co san pham
+                  </span>
+                  <h4 class="header__cart-heading">San pham da them</h4>
+                  <ul class="header__cart-list-item">
+                    <!-- Cart item -->
+                    <li class="header__cart-item">
+                      <img
+                        src="data:image/jpeg;base64,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"
+                        alt=""
+                        class="header__cart-img"
+                      />
+                      <div class="header__cart-item-info">
+                        <div class="header__cart-item-head">
+                          <h5 class="header__cart-item-name">Bo chong nang</h5>
+                          <div class="header__cart-item-primary-wrap">
+                            <span class="header__cart-item-price"
+                              >500.000d</span
+                            >
+                            <span class="header__cart-item-multiply">x</span>
+                            <span class="header__cart-item-qnt">4</span>
+                          </div>
+                        </div>
+                        <div class="header__cart-item-body">
+                          <span class="header__cart-item-description">
+                            Phan loai : Bac
+                          </span>
+                          <span class="header__cart-item-remove">Xoa</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="header__cart-item">
+                      <img
+                        src="data:image/jpeg;base64,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"
+                        alt=""
+                        class="header__cart-img"
+                      />
+                      <div class="header__cart-item-info">
+                        <div class="header__cart-item-head">
+                          <h5 class="header__cart-item-name">Dau goi</h5>
+                          <div class="header__cart-item-primary-wrap">
+                            <span class="header__cart-item-price"
+                              >780.000d</span
+                            >
+                            <span class="header__cart-item-multiply">x</span>
+                            <span class="header__cart-item-qnt">1</span>
+                          </div>
+                        </div>
+                        <div class="header__cart-item-body">
+                          <span class="header__cart-item-description">
+                            Phan loai : Bac
+                          </span>
+                          <span class="header__cart-item-remove">Xoa</span>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="header__cart-item">
+                      <img
+                        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEhUPEBIVFRUVEBYVFRUVFRUPFRUQFRUWFxUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFxAQFy0dHR8tLS0tKystLS0rLSstLSstLS0tLSstLS0tLS0tLTgtLS0rLTctLS0tLS0tLS03LS0tK//AABEIAL4BCQMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAABAAIEBQYDB//EAD4QAAIBAgMFBQYEAwcFAAAAAAABAgMRBCExBRJBUXFhgZGhsQYTIjLB8EJy0eEjYvEUJDNSY3OCFUOSorL/xAAaAQADAQEBAQAAAAAAAAAAAAAAAQMCBAUG/8QAJBEBAQACAgIBAwUAAAAAAAAAAAECEQMxIUEFElHwBBMUMjP/2gAMAwEAAhEDEQA/APVkgiEXRE7YeWdufrwOCHXCzYl8gtnx00gtIJJR/wCS4u2RLhFJWSt5CUrpPx6hILExo4awMiPjqCqQcXxXmSAMA8v2phHBtf5X5Fcbf2swCuqqWTyf398TGVIWbXh04HThluOfKarmiRh52ZHDBlGV/hKpaUZmewlUucNUM0LOnI7RZEpSJMGZN3Q5DIjkIO9CnvO3Ydnhe0Zg/mXbdeRJqRlEnnlZVcJLEKpgZcJLwI09n1eDj4tfQsZ4hJXlZJatuyXew08TCWjT6NMUzyFxw6Vf9hrfy+IHha6/D/7R/Uud8TkH7lH0RQ4h1Ka3pxsr2vdPPuYyhilLRg9tMUo0VFayqLwSb/Qodg1L36lcPM2llNXTVRY44UmdkMiEGwGAIVwXFYAniFPXvBcy2IQBAnbDyztz9TtciIlp3z5+pPOe1cL6IQWAw2axBkAAjY/D+8g4vlkebbUwjg3zi81/LfX+h6izJ+1ez8/eJZPJ5ft93N4ZarGeO4xdgD5x3W4+HTgMaOpzpGGnmXGEqlBBllhKgqGhozJlORV4eZYUpGaaXBnRHGDOqZk0ii7NPtXqWtWNyniXcs0S5FeNR7fh/d6v+3L0POlHM9M29BuhVSTbdNpJZvuR53UozWsZLrFo9H4+z6bv7vn/AJvHK8mFk9NR7FS+Gqv5o+af6GgqzsjOexTyrdYeki22lVtGxx/q/wDXJ6vxm/42G/zzWM9rcXvVIxvom/F2XowbAKzbVXerz7LR8Er+dyz2FoPGaxiuV8tPReRJiyJQJMGAdBMSAAAQmCwBYT17xo6er6jUjEbFBBYIyE7YeX4eenU4hT4is3Dl1UsQr3z5/bERXIaOY0ARF2hhlUg4Pl5nWpXSvq7LPztn2tWOU3Nuyatu6rm72d+GmufDLMcjNrzXauHcJZ/hdu4h2Nn7TYJpqpZfErSSzWevC+vTUx84brceT8uB04ZbiGU1XOxJw07M4MMGaZX+EqFpRkZ/CVS4w8zNNZQZ3gyJTkSabEEiBZYyclD4Zbt4POzm02laSjZ7zXIrIMu6Pyr8q9CXIrxqHE4iu23GbS3Vl7qVlJRs2m4veW9nurPJK+ZGrY6skrVEr2edOblZOala0Fuv5bRaemppZnCRJXShqbTqNycJ0mtYp3y0zlJuN1m3kteKWkKpj51JOMoxS4NTjJu1uEW1x55WXM0ddJ6pPqrmc2hThBynGMU1F3aSjklfh0HCvhhK9TeqTlznJ+LZodiLJGYpGp2Nouh1uVoKGhJiRaBJiZN1QgRCwBrEEABYS1fUaOlq+o0xGxChrEMjkECCAd6Evw966nUiJ2zO1aLe64t21ydvvjl0J5TypjfBVK0UtU87a6Pt5HObk245PXNZaweq715DoYdLXPO6ytblp3eCOmS08EZa83tzjR5u+Vu56rpkrD8l+wrPoFIRom0cMqtNxa4HnW0cPuPtTs+VuHBW/c9QMj7V4BKXvEsnk+H9P3N4ZarOc3GPYEx01Z25dw2x0udJws7MucJUKCEizwdUQaCjIlwZW4eZOpyM00yDLzDv4Y/lXoUFNl9hfkj+VEuRTj7GZHkSJkeoSXRq7yMrt6panVf+nLzVjTYp5GP9pZ2o1O3dXjJDw7Yy6ZGmajZGiMvTNPsnRHW5l9QJUSJQJUDJu0QjYjxALDRwhhPlq+oxj5avqMMRshXEIYFBTGiAjzvh5fh70R0Oi7Zis3Dl1UiTFFDm183C1+4psf7RU470KNqs1RdWKjJJTjaTW49al1CdtxSXw2bV0RW0uG+JAxm1acKNWtCUZqlG8vjUYr4Yzznmkt2cZX5NMpsTHGYq0VuqjOhQlLfUVT3ve1Jb0FFy94pKFLepupZwlrFvOz/6dFy3673pTShKMN6nRlFbygp03J7+U3G7yd1dZKwavwOOxVbEe8p3dBON4ytSapyg4uG64Z1IVI7ze/Zwcd26ld3W0cMqkHHsyJYADy/aOH3W9Lp2a0fY7Xf2yEbD2qwNn7z8LyedvWSS89UZCSzavezOnC7jmzx1TbknDVLEYdBmmWhwlUsqMzP4SqW9CoKms6cjSYT5I/lRlqMjUYP5IflXoS5OlOPs+ZGqkqoRapFdW455GM9qZ/wutRejf0NhtCWRifayfwQXObfgv3Ncf9onn0z0DT7J0RmKZptl6I6nOvqBKgRKBLgZpuqOiZziPQgTAJisATpvN9RoZvN9QCjZCEICEQBADgjRwAa2HhXpzoVFeM4Si1o92Ss7Pg+JXbOoqhuyq1HUqRTpSqKM4RtJxnK+/KTla2/eUnZOVrK6LKMrZodWpK/vIptvRZuKlutKTitXZ7t+RPOK4XcRIOUs+EZqKlGSVJU4u00472d0pcHbeSurEiOVkouXC7yvutW71z7GMlSTf8R31+H/ACxWWdnbr06gvZXyjGyzzbdk31lZWzTta5ht1hVlFPf+bNpLW3Bcr5pdpyrucr/EoRX4snvZJ5did+tuWZzpq/8AhxWl9+Svd/MmuF89e0kxwqecs3zV0+PG9+L7PBAEXEONeLhZtbvzaZ2TtbWOTTzPPtpUXCWeqdn9Hq/to9RyWXkZT2qwNviV7SVn92fHkjeGWqxnNxjwoW602nqshHQ50jDzsy3wtQoossMNVAL+jM039rVKnSum99wgrc2m7vsyZkMPUNjBP3VO3KOtrfLxv220zI8qvF3XDF7YhB/FGaiqTqSlZ7sYJSeb4N7rtz4EOG26dSO/GM3G9KLl8DSqVpQjGGUrtr3kbtJx1s200WeK3rxta14/5LZSW9e+el7W4vgQMRh6c1H3kKU7q1TejCd1beazWm/uy65kVlNtHbVDedPe+L3rpaf9xbuS55zS6qXJmX9rJZ0l2Sf/AMmr2hhKKzVOCskk1FKyUt5Wtyln1Mf7Vy/iQXKn6v8AYpx9p8nSqpml2XojM0uBptmaI6EF5RJcCJQJUDNN2iOQxHRACEGwrCCZLV9QCnq+ojMbIAQDIRIQgAiQAgDjtRd046cnx7jgh0JWdxWbh43VMUM2oQzUs5tLt0vlbRcbX0H+4jfel8TumuSatml3LwJM7a8Bqz+8ySxsY93YlzDd8ByiOEWjFAjbRwyqQcXyJYGB6eW7Tw7py042eVunBLwvqRka72q2cr76WUlZ5Xfkr+aMgssuWR0YZbjnzx1RO1CpY4AcrG2V5hax6BTf8OnppHW74dnE8vw1Y9Vwq+CH5Y+iI8vpXi9uG0JdtO1s96+l0r5cLNrv8amtCz0oXVvlbi880kr8Ur9EX9eKyyXhcrsVShazjD/xXMirtk8bTs1KnTjLdvbdqWUd5Z5Xaer7raGZ9ppXrL/bj6tm1xlNRySSzvZKyu9WYb2hl/eJdiivJfqV4u0+TpDpcOpp9mrJGZpao0+zdEXRXNAmQIdEmQM03SJ0RzidIgYiFcAiTJ6vqIM9X1AZjZCAIZCIAgAiEIAKHIYOQBIoS4d6+p0I0JWzJL5k84rhdkIQxy5ePAw2cBjVJ9fJDmARdo4ZVIOL5dTzfalBwnd9H+vb4WztwPUWZb2m2Ym97KzTv3LLq/Q1hdVjPHcY05yY/NXi9U7HOR0uc6lUseyYf5Y/lXojxyjSctD2WlpHovoR5fSvF7KtIr689btffMn1+vkV2Jg7cNOX39sisocdNOVrrUwe2pXr1PzW8EkbXFwanlu68s7dxhtoO9ao/wDUl62K8XaXIZR1XU1GztEZigs0ajZ5dFcUSXAiUSXAybpEehkRyAzriuAAgny1fUAZ6vqAzGiEAQyJiQmAAIQBAEFAEAOTJFCV1bvX1Itx8Z2zFZuHjdV3fj1yA8+30FWml8Vrp6Z2S68jjvSqcMu+Kea735LUlIrcofKuldXu0tNEur0X7DI1Kkm7Jd6tHO2d9ZZcsvp0jhorXPlfRdFp3nVuw9wat7BX46+BGx+H95FrsOjqt/LHLm8lbs4sh43bFChuQq1E5zuowinKc3G29uwjdu11fldXMtPP9obPnCXy8dxdsYrJiobObzl4Gh2m1Oe9pe1o8YripWbW83wT4I4RpnTh05sp5R8PhkrHpMFoYahQzXVepuN9Kyfo2T5fTfH7KsV2LTtqTq9aK1ZWY3FQSznFZc0iOqrdKDE33szz+u7zk+c5PzZu61eMm92SeT0aen2vEwKd3ftLcU7R5PTvh9UafZ6yRmsIviRp8CskWTWtElQI1EkwM03VDhiHAYiAG4BPnq+o0MtX1AZjRBEACJgEIASCAQAUIDYgAhAIAk4aV1u96HzqpZfds/0ZEjOzTR0xFSK+JR3nbTJa2ybeS0XgSynlXC+HS876Kyfjr9LPv7CLiKtOm96cnJrm1aP0X9CIq+Imn73chnlGm3JW7ZNK78mRKuDvrn98BzDZXPXQ4vbt8oK/jGPfxl5FbUrVKjvJ8LZK3w8suHYTXhEOjQKzGRO5WoVKgSoUSTCmP3B7ZNwtH4o/mXqaf3avfst3FFRVncuoYhPgS5FePQYiinzWXBtFTtDDppvekv8Ak7eZbVqnMrcbK6yJ7qlxxrM4uy32l+B+SMLGJuNrQlGnOVlpbVccvqZFwL8XSHJ2OCj8RpsEigwUczRYRZFGFjSJESPSJETJnochsRyQGNg2EEQTpavqAMtX1Y0zGhEAQyIFwgYAmAQgBMQBABuG40QAbjJMNwMAYJoIBkbuoG4h4UANUROI/dBYANMsKPzIgwJtH5kYyaxd8UU2LLbFyKnEcSUVqi25/gy6r1Rk5I1m3/8AB/5r6mXVNvRHTh0hl2fglmaHCRyKvA4WzLyhCw6SRTR3ijlTR2SEDkPQ1DkBkK4hXEE6Wr6gHT1fVgMxogBAMUANhYLARAbCAAQhCAEBsVwMAVwBGgCEK4hggpBSCIEhsmEaxkMWTqD+JFeOjUa0ZmzZy6TsXPNlfVWTHus+I1y6GZhW7mrdpYbfgl/NfyZXR2fYvZjHBFJ4idVVPC2JlOmd3AO6MjYxHoVhwGKEIQAhCEAf/9k="
+                        alt=""
+                        class="header__cart-img"
+                      />
+                      <div class="header__cart-item-info">
+                        <div class="header__cart-item-head">
+                          <h5 class="header__cart-item-name">
+                            Bo kem dac tri mun
+                          </h5>
+                          <div class="header__cart-item-primary-wrap">
+                            <span class="header__cart-item-price"
+                              >2.000.000d</span
+                            >
+                            <span class="header__cart-item-multiply">x</span>
+                            <span class="header__cart-item-qnt">2</span>
+                          </div>
+                        </div>
+                        <div class="header__cart-item-body">
+                          <span class="header__cart-item-description">
+                            Phan loai : Bac
+                          </span>
+                          <span class="header__cart-item-remove">Xoa</span>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                  <a href="#" class="header__cart-view-cart btn btn--primary">
+                    Xem gio hang
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="app__container">
+        <div class="grid">
+          <div class="grid__row app-content">
+            <div class="grid__column-2">
+              <nav class="category">
+                <h3 class="category__heading">
+                  <i class="category__heading-icon fas fa-list"></i>
+                  Danh muc
+                </h3>
+                <ul class="category-list">
+                  <li class="category-item category-item-active">
+                    <a href="#" class="category-item__link">Trang diem mat</a>
+                  </li>
+                  <li class="category-item">
+                    <a href="#" class="category-item__link">Trang diem moi</a>
+                  </li>
+                  <li class="category-item">
+                    <a href="#" class="category-item__link">Trang diem mat</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="grid__column-10">
+              <div class="home-filter">
+                <span class="home-filter__label">Sap xep theo</span>
+                <button class="home-filter__btn btn">Pho bien</button>
+                <button class="home-filter__btn btn btn--primary">
+                  Moi nhat
+                </button>
+                <button class="home-filter__btn btn">Ban chay</button>
+
+                <div class="select-input">
+                  <span class="select-input__label">Gia</span>
+                  <i class="select-input__icon fas fa-angle-down"></i>
+                  <!-- List options-->
+                  <ul class="select-input__list">
+                    <li class="select-input__item">
+                      <a href="" class="select-input__link">Gia thap den cao</a>
+                    </li>
+                    <li class="select-input__item">
+                      <a href="" class="select-input__link">Gia cao den thap</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="home-filter__page">
+                  <span class="home-filter__page-num">
+                    <span class="home-filter__page-current">1</span>/14
+                  </span>
+                  <div class="home-filter__page-control">
+                    <a
+                      href=""
+                      class="home-filter__page-btn home-filter__page-btn--disabled"
+                    >
+                      <i class="home-filter__page-icon fas fa-angle-left"></i>
+                    </a>
+                    <a href="" class="home-filter__page-btn">
+                      <i class="home-filter__page-icon fas fa-angle-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="home-product">
+                <div class="gird__row">
+                  <div class="grid__column-2-4">
+                    <!-- Product item-->
+                    <a class="home-product-item" href="main.html">
+                      <div
+                        class="home-product-item__img"
+                        style="
+                          background-image: url(https://thucphamgiasi.vn/thumbs/540x540x1/upload/product/1-7446.jpg);
+                        "
+                      ></div>
+                      <h4 class="home-product-item__name">Dau an tuong an</h4>
+                      <div class="home-product-item__price">
+                        <span class="home-product-item__price-old"
+                          >1.200.000D</span
+                        >
+                        <span class="home-product-item__price-current"
+                          >999.000D</span
+                        >
+                      </div>
+                      <div class="home-product-item__action">
+                        <span
+                          class="home-product-item__like home-product-item__like--liked"
+                        >
+                          <i
+                            class="home-product-item__like-icon-empty far fa-heart"
+                          ></i>
+                          <i
+                            class="home-product-item__like-icon-fill fas fa-heart"
+                          ></i>
+                        </span>
+                        <div class="home-product-item__rating">
+                          <i
+                            class="home-product-item__star--gold fas fa-star"
+                          ></i>
+                          <i
+                            class="home-product-item__star--gold fas fa-star"
+                          ></i>
+                          <i
+                            class="home-product-item__star--gold fas fa-star"
+                          ></i>
+                          <i
+                            class="home-product-item__star--gold fas fa-star"
+                          ></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <span class="home-product-item__sold">88 Da ban</span>
+                      </div>
+                      <div class="home-product-item__origin">
+                        <span class="home-product-item__brand">OL</span>
+                        <span class="home-product-item__origin-name"
+                          >Nihon</span
+                        >
+                      </div>
+                      <div class="home-product-item__favorite">
+                        <i class="fas fa-check"></i>
+                        <span>Yeu thich</span>
+                      </div>
+                      <div class="home-product-item__sale-off">
+                        <span class="home-product-item__sale-off-percent"
+                          >10%</span
+                        >
+                        <span class="home-product-item__sale-off-label"
+                          >Giam</span
+                        >
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <ul class="pagination home-product__pagination">
+                <li class="pagination-item">
+                  <a href="/" class="pagination-item__link">
+                    <i class="pagination-item__icon fas fa-angle-left"></i>
+                  </a>
+                </li>
+                <li class="pagination-item pagination-item--active">
+                  <a href="/" class="pagination-item__link">1</a>
+                </li>
+                <li class="pagination-item">
+                  <a href="/" class="pagination-item__link">2</a>
+                </li>
+                <li class="pagination-item">
+                  <a href="/" class="pagination-item__link">3</a>
+                </li>
+                <li class="pagination-item">
+                  <a href="/" class="pagination-item__link">4</a>
+                </li>
+                <li class="pagination-item">
+                  <a href="/" class="pagination-item__link">5</a>
+                </li>
+                <li class="pagination-item">
+                  <a href="/" class="pagination-item__link">...</a>
+                </li>
+                <li class="pagination-item">
+                  <a href="/" class="pagination-item__link">14</a>
+                </li>
+                <li class="pagination-item">
+                  <a href="/" class="pagination-item__link">
+                    <i class="pagination-item__icon fas fa-angle-right"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="grid">
+          <div class="row">
+            <div class="grid__row grid__row-footer">
+              <div class="grid__column-2-4">
+                <h3 class="footer__heading">Cham soc khach hang</h3>
+                <ul class="footer-list">
+                  <li class="footer-item">
+                    <a href="/" class="footer-item-link">Trung tam tro giup</a>
+                  </li>
+                  <li class="footer-item">
+                    <a href="/" class="footer-item-link">Mail</a>
+                  </li>
+                  <li class="footer-item">
+                    <a href="/" class="footer-item-link">Huong dan mua hang</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="grid__column-2-4">
+                <h3 class="footer__heading">Gioi thieu</h3>
+                <ul class="footer-list">
+                  <li class="footer-item">
+                    <a href="/" class="footer-item-link">Gioi thieu</a>
+                  </li>
+                  <li class="footer-item">
+                    <a href="/" class="footer-item-link">Tuyen dung</a>
+                  </li>
+                  <li class="footer-item">
+                    <a href="/" class="footer-item-link">Dieu khoan</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="grid__column-2-4">
+                <h3 class="footer__heading">Danh muc</h3>
+                <ul class="footer-list">
+                  <li class="footer-item">
+                    <a href="/" class="footer-item-link">Trang diem mat</a>
+                  </li>
+                  <li class="footer-item">
+                    <a href="/" class="footer-item-link">Trang diem moi</a>
+                  </li>
+                  <li class="footer-item">
+                    <a href="/" class="footer-item-link">Trang diem mat</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="grid__column-2-4">
+                <h3 class="footer__heading">Theo doi</h3>
+                <ul class="footer-list">
+                  <li class="footer-item">
+                    <a href="/" class="footer-item-link">
+                      <i class="footer-item__icon fab fa-facebook"></i>
+                      Facebook
+                    </a>
+                  </li>
+                  <li class="footer-item">
+                    <a href="/" class="footer-item-link">
+                      <i class="footer-item__icon fab fa-instagram"></i>
+                      Instagram
+                    </a>
+                  </li>
+                  <li class="footer-item">
+                    <a href="/" class="footer-item-link">
+                      <i class="footer-item__icon fab fa-linkedin"></i>
+                      Linkedin
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="grid__column-2-4">
+                <h3 class="footer__heading">Vao cua hang tren ung dung</h3>
+                <div class="footer__download">
+                  <img
+                    src="/shop/asseets/img/qr.png"
+                    alt="Download QR"
+                    class="footer__download-qr"
+                  />
+                  <div class="footer__download-apps">
+                    <a href="" class="footer__download-app-link">
+                      <img
+                        src="/shop/asseets/img/googlePlay.df026781.png"
+                        alt="Google play"
+                        class="footer__download-app-img"
+                      />
+                    </a>
+                    <a href="" class="footer__download-app-link">
+                      <img
+                        src="/shop/asseets/img/appstore.png"
+                        alt="App Store"
+                        class="footer__download-app-img"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <div class="grid">
+            <p class="footer__text">@ 2023 - Ban quyen thuoc cong ty ...</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- modal-->
+    <!-- <div class="modal">
+      <div class="modal__overlay"></div>
+      <div class="modal__body"> -->
+    <!-- Authen form-->
+
+    <!-- <div class="auth-form">
+          <div class="auth-form__container">
+            <div class="auth-form__header">
+              <h3 class="auth-form__heading">Dang ky</h3>
+              <span class="auth-form__switch-btn">Dang nhap</span>
+            </div>
+            <div class="auth-form__form">
+              <div class="auth-form__group">
+                <input
+                  type="text"
+                  class="auth-form__input"
+                  placeholder="Email cua ban"
+                />
+              </div>
+              <div class="auth-form__group">
+                <input
+                  type="text"
+                  class="auth-form__input"
+                  placeholder="Mat Khau cua ban"
+                />
+              </div>
+              <div class="auth-form__group">
+                <input
+                  type="text"
+                  class="auth-form__input"
+                  placeholder="Nhap lai mat khau"
+                />
+              </div>
+            </div>
+            <div class="auth-form__aside">
+              <p class="auth-form__policy-text">
+                Bang viec dang ky ban da dong y voi shop ve
+                <a href="#" class="auth-form__text-link">Dieu khoan dich vu</a>
+                <a href="#" class="auth-form__text-link">Chinh sach bao mat</a>
+              </p>
+            </div>
+            <div class="auth-form__controls">
+              <button class="btn btn--normal auth-form__controls-back">
+                TRO LAI
+              </button>
+              <button class="btn btn--primary">DANG KY</button>
+            </div>
+          </div>
+        </div>
+        <div class="auth-form__socials">
+          <a
+            href="#"
+            class="btn auth-form__socials--facebook btn--size-s btn--with-icon"
+          >
+            <i class="fab auth-form__socials-icon fa-facebook-square"></i>
+            <span class="auth-form__socials-title">Ket noi voi Facebook</span>
+          </a>
+          <a
+            href="#"
+            class="btn auth-form__socials--google btn--size-s btn--with-icon"
+          >
+            <i class="fab auth-form__socials--icon fa-google"></i>
+            <span class="auth-form__socials-title">Ket noi voi Google</span>
+          </a>
+        </div> -->
+    <!-- login form-->
+    <!-- <div class="auth-form">
+          <div class="auth-form__container">
+            <div class="auth-form__header">
+              <h3 class="auth-form__heading">Dang nhap</h3>
+              <span class="auth-form__switch-btn">Dang ky</span>
+            </div>
+            <div class="auth-form__form">
+              <div class="auth-form__group">
+                <input
+                  type="text"
+                  class="auth-form__input"
+                  placeholder="Email cua ban"
+                />
+              </div>
+              <div class="auth-form__group">
+                <input
+                  type="text"
+                  class="auth-form__input"
+                  placeholder="Mat Khau cua ban"
+                />
+              </div>
+            </div>
+            <div class="auth-form__aside">
+              <div class="auth-form__help">
+                <a
+                  href=""
+                  class="auth-form__help-link auth-form__help-link-forgot"
+                  >Quen mat khau</a
+                >
+                <span class="auth-form__help-separate"></span>
+                <a href="" class="auth-form__help-link">Can tro giup?</a>
+              </div>
+            </div>
+            <div class="auth-form__controls">
+              <button class="btn btn--normal auth-form__controls-back">
+                TRO LAI
+              </button>
+              <button class="btn btn--primary">DANG NHAP</button>
+            </div>
+          </div>
+        </div>
+        <div class="auth-form__socials">
+          <a
+            href="#"
+            class="btn auth-form__socials--facebook btn--size-s btn--with-icon"
+          >
+            <i class="fab auth-form__socials-icon fa-facebook-square"></i>
+            <span class="auth-form__socials-title">dang nhap voi Facebook</span>
+          </a>
+          <a
+            href="#"
+            class="btn auth-form__socials--google btn--size-s btn--with-icon"
+          >
+            <i class="fab auth-form__socials--icon fa-google"></i>
+            <span class="auth-form__socials-title">dang nhap voi Google</span>
+          </a>
+        </div> -->
+    <!-- </div> -->
+    <!-- </div> -->
+  </body>
+</html>
